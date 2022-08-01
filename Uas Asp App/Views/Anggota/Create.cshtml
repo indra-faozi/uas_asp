@@ -1,0 +1,47 @@
+﻿@model Uas_Asp_App.Models.Anggota
+
+@{
+    ViewData["Title"] = "Create";
+}
+<h1>Create</h1>
+
+<h4>Anggota</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly".class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="nama" class="control-label"></label>
+                <input asp-for="nama" class="form-control" />
+                <span asp-validation-for="nama" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="npm" class="control-label"></label>
+                <input asp-for="npm" class="form-control" />
+                <span asp-validation-for="npm" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="alamat" class="control-label"></label>
+                <input asp-for="alamat" class="form-control" />
+                <span asp-validation-for="alamat" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="phone" class="control-label"></label>
+                <input asp-for="phone" class="form-control" />
+                <span asp-validation-for="phone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

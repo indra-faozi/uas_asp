@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uas Asp App", "Uas Asp App\Uas Asp App.csproj", "{B33DFFB9-6415-4D23-A96B-9A3C83441C09}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B33DFFB9-6415-4D23-A96B-9A3C83441C09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B33DFFB9-6415-4D23-A96B-9A3C83441C09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B33DFFB9-6415-4D23-A96B-9A3C83441C09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B33DFFB9-6415-4D23-A96B-9A3C83441C09}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {576D41CB-CB71-4D0C-A4FD-A53BBC5F9963}
+	EndGlobalSection
+EndGlobal
